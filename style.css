@@ -1,0 +1,71 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.bg-cover {
+	background-image: url(./images/cover.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.m-header {
+	padding: 2rem;
+	margin-right: 10rem;
+	margin-top: 2rem;
+}
+
+.bg-trans {
+	background-color: rgba(187,187,201,0.2);
+	background-size: cover;
+}
+
+.head-button {
+	display: inline-flex;
+    width: auto;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    vertical-align: middle;
+    padding: 0 1.75rem;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-radius: 2rem;
+    direction: var(--site-language-direction);
+    /*transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;*/
+    box-shadow: inset 0 0 0 0 rgba(187,187,201,0.2);
+    transition: ease-out 0.3s;
+}
+
+.head-button:hover {
+	box-shadow: inset 200px 0 0 0 rgba(187,187,201,0.2);
+	/*background-color: gray;*/
+
+}
+
+.details-area input {
+	width: 100%;
+	background: white;
+	border-radius: 40px;
+	padding: 0.5rem;
+}
+
+.details-area textarea {
+	width: 100%;
+	background: white;
+	border-radius: 40px;
+	padding: 0.5rem;
+
+}
+
+/*.fa {
+  padding: 2rem;
+  font-size: 4rem;
+  width: 6rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 10rem;*/
+
+  .fa {
+  	font-size: 2rem;
+  }
